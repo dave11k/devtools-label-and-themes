@@ -1,0 +1,66 @@
+/* Green DevTools Theme */
+
+/* Main toolbar and panels */
+.devtools-tabbed-pane-header-contents,
+.devtools-tabbed-pane-header,
+.toolbar,
+.devtools-toolbar {
+  background-color: #166534 !important;
+  color: #ffffff !important;
+}
+
+/* Tab styling */
+.devtools-tab,
+.devtools-tabbed-pane-header-tab {
+  background-color: #22c55e !important;
+  color: #ffffff !important;
+  border-color: #15803d !important;
+}
+
+.devtools-tab.selected,
+.devtools-tabbed-pane-header-tab.selected {
+  background-color: #16a34a !important;
+  color: #ffffff !important;
+}
+
+/* Console and editor areas */
+.console-view,
+.console-messages-view,
+.editor-container,
+.sources-panel {
+  background-color: #dcfce7 !important;
+  color: #15803d !important;
+}
+
+/* Elements panel */
+.elements-tree-outline,
+.elements-disclosure-list {
+  background-color: #f0fdf4 !important;
+  color: #15803d !important;
+}
+
+/* Sidebar panels */
+.sidebar-pane,
+.sidebar-pane-title {
+  background-color: #bbf7d0 !important;
+  color: #15803d !important;
+}
+
+/* Buttons and controls */
+button,
+.toolbar-button {
+  background-color: #22c55e !important;
+  color: #ffffff !important;
+  border-color: #15803d !important;
+}
+
+button:hover,
+.toolbar-button:hover {
+  background-color: #16a34a !important;
+}
+
+/* General text elements */
+.devtools-link,
+.console-message-text {
+  color: #15803d !important;
+}

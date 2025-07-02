@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Debugger Color & Labeler",
+  "version": "1.0",
+  "description": "Customizes DevTools appearance and allows per-window labeling.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "devtools_page": "devtools.html",
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"]
+}
