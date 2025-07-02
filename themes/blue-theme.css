@@ -1,66 +1,69 @@
 /* Blue DevTools Theme */
 
-/* Main toolbar and panels */
-.devtools-tabbed-pane-header-contents,
-.devtools-tabbed-pane-header,
-.toolbar,
-.devtools-toolbar {
+/* Main DevTools toolbar with Elements, Console, Sources tabs */
+.main-tabbed-pane .tabbed-pane-header,
+.main-tabbed-pane .tabbed-pane-header-contents,
+.inspector-view-toolbar,
+.toolbar {
   background-color: #1e3a8a !important;
-  color: #ffffff !important;
+  border-bottom: 1px solid #1e40af !important;
 }
 
-/* Tab styling */
-.devtools-tab,
-.devtools-tabbed-pane-header-tab {
+/* Individual tabs in main toolbar */
+.main-tabbed-pane .tabbed-pane-header-tab,
+.tabbed-pane-header-tab {
   background-color: #3b82f6 !important;
   color: #ffffff !important;
   border-color: #1e40af !important;
 }
 
-.devtools-tab.selected,
-.devtools-tabbed-pane-header-tab.selected {
+/* Selected/active tab */
+.main-tabbed-pane .tabbed-pane-header-tab.selected,
+.tabbed-pane-header-tab.selected {
   background-color: #1d4ed8 !important;
   color: #ffffff !important;
+  border-bottom: 2px solid #60a5fa !important;
 }
 
-/* Console and editor areas */
-.console-view,
-.console-messages-view,
-.editor-container,
-.sources-panel {
-  background-color: #dbeafe !important;
-  color: #1e40af !important;
+/* Tab text */
+.tabbed-pane-header-tab-title,
+.tab-title {
+  color: #ffffff !important;
 }
 
-/* Elements panel */
-.elements-tree-outline,
-.elements-disclosure-list {
-  background-color: #eff6ff !important;
-  color: #1e40af !important;
-}
-
-/* Sidebar panels */
-.sidebar-pane,
-.sidebar-pane-title {
-  background-color: #bfdbfe !important;
-  color: #1e40af !important;
-}
-
-/* Buttons and controls */
-button,
-.toolbar-button {
+/* Toolbar buttons */
+.toolbar-button,
+.toolbar-item {
   background-color: #3b82f6 !important;
   color: #ffffff !important;
   border-color: #1e40af !important;
 }
 
-button:hover,
 .toolbar-button:hover {
   background-color: #2563eb !important;
 }
 
-/* General text elements */
-.devtools-link,
-.console-message-text {
-  color: #1e40af !important;
+/* Panel backgrounds */
+.panel,
+.vbox,
+.split-widget {
+  background-color: #f8fafc !important;
+}
+
+/* Console area */
+.console-view,
+.console-messages-element {
+  background-color: #eff6ff !important;
+}
+
+/* Elements panel */
+.elements-tree-outline,
+.tree-outline {
+  background-color: #f1f5f9 !important;
+}
+
+/* Sources panel */
+.sources-panel,
+.navigator-tabbed-pane {
+  background-color: #f8fafc !important;
 }

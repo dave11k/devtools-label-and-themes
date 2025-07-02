@@ -9,6 +9,6 @@
     "128": "icons/icon128.png"
   },
   "devtools_page": "devtools.html",
-  "permissions": ["storage"],
+  "permissions": ["storage", "scripting"],
   "host_permissions": ["<all_urls>"]
 }
